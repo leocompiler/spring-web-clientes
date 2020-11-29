@@ -1,5 +1,6 @@
-# spring-web-clientes
-Micro serviço para prover informação para o projeto [Cliente Web](https://github.com/leocompiler/react-clientes-web)
+# Spring Web Clientes
+* Micro serviço para prover informação para o projeto.
+* [Cliente Web](https://github.com/leocompiler/react-clientes-web)
 <br>
 <img width=40% height=20% src="https://github.com/leocompiler/react-clientes-web/blob/master/imagens/web_cliente_react.PNG?raw=true">
 
