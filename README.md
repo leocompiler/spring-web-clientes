@@ -1,6 +1,7 @@
 # Spring Web Clientes 1.0
-* Micro serviço para prover informação para o projeto.
-* [Cliente Web](https://github.com/leocompiler/react-clientes-web)
+* Micro serviço para prover informação para o projeto  [React Cliente Web 1.0 ](https://github.com/leocompiler/react-clientes-web)
+* Disponibilização de login via auth2 
+* ApisRest para cadastrar, atualizar e remover clientes .
 <br>
 <img width=40% height=20% src="https://github.com/leocompiler/react-clientes-web/blob/master/imagens/web_cliente_react.PNG?raw=true">
 
