@@ -1,4 +1,4 @@
-# Spring Web Clientes
+# Spring Web Clientes 1.0
 * Micro serviço para prover informação para o projeto.
 * [Cliente Web](https://github.com/leocompiler/react-clientes-web)
 <br>
