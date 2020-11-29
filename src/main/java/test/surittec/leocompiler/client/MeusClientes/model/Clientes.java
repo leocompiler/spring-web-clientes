@@ -20,6 +20,7 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import javax.validation.constraints.NotNull;
 
+import org.hibernate.validator.constraints.Length;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
@@ -47,13 +48,14 @@ public class Clientes implements Serializable {
 	@Column(name = "id", unique = true, nullable = false)
 	long id;
 
+    @Column(length = 100)
+    @Length(min = 3, max = 100)
 	@NotNull
 	String nome;
 	@NotNull
 	String cpf;
 
-	String email;
-
+ 
 	@OneToOne(cascade = CascadeType.ALL)
 	@JoinColumn(name = "endereco_id", referencedColumnName = "id")
 	private Endereco endereco;
@@ -98,13 +100,7 @@ public class Clientes implements Serializable {
 		this.cpf = cpf;
 	}
 
-	public String getEmail() {
-		return email;
-	}
-
-	public void setEmail(String email) {
-		this.email = email;
-	}
+ 
 
  
 	public Endereco getEndereco() {
